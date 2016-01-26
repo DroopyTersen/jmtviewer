@@ -1,0 +1,24 @@
+.forum .forum-post-panel {
+    margin-bottom: 1em;
+}
+
+.forum.media-list li img.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+.forum.media-list li .user-info {
+    text-align: center;
+    width: 14em;
+}
+
+@media (max-width: 760px) {
+    .forum.media-list li .user-info {
+        float: none;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+.media-body {
+    font-size:1.3em;
+}
